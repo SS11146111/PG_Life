@@ -33,7 +33,7 @@ header{
 
 .search{
     position:absolute;
-    left: 36%;
+    left: 34%;
     top: 20%;
 
 }
@@ -48,6 +48,7 @@ header{
 .box{
     position: relative;
     left:26%;
+    margin-bottom: 50px;
 }
 
 .cityBox{
@@ -58,5 +59,8 @@ header{
     box-shadow: 10px 10px 2px lightgray;
 }
 
+footer{
+    height: 80px;
+}
 
 
