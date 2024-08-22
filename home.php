@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome|PG Life</title>
+    <title>Welcome | PG Life</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/common.css" rel="stylesheet" />
@@ -15,8 +15,7 @@
 
 </head>
 <body>
-
-  <div class="header sticky-top">
+<div class="header sticky-top">
     <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="home.html">
             <img src="img/logo.png" width="120" height="60"/>
@@ -178,7 +177,7 @@
     <div>
         <div class="search text-center">
            <h2 class="text-white">Happiness per Square Foot</h2>
-           <form class="form-inline d-flex flex-row">
+           <form class="form-inline d-flex flex-row justify-content-center">
             <input class="form-control" type="search" placeholder="Enter your city to search for PGs" aria-label="Search" size="50">
             <button class="btn btn-secondary" type="submit"><i class="fas fa-search"></i></button>
           </form>
@@ -186,18 +185,18 @@
         
         <div class="cities">
             <h1>Major Cities</h1>
-            <div class="d-flex flex-row box">
+            <div class="d-flex flex-row justify-content-center box">
                 <div class="cityBox">
-                    <img src="/img/mumbai.png" width="120" height="120">
+                    <img src="./img/mumbai.png" width="120" height="120">
                 </div>
                 <div class="cityBox">
-                    <img src="/img/delhi.png" width="120" height="120">
+                    <img src="./img/delhi.png" width="120" height="120">
                 </div>
                 <div class="cityBox">
-                    <img src="/img/bangalore.png" width="120" height="120">
+                    <img src="./img/bangalore.png" width="120" height="120">
                 </div>
                 <div class="cityBox">
-                    <img src="/img/hyderabad.png" width="120" height="120">
+                    <img src="./img/hyderabad.png" width="120" height="120">
                 </div>
             </div>
             <footer class="py-3 bg-dark">
@@ -223,3 +222,4 @@
     
 </body>
 </html>
+    
